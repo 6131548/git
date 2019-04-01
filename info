@@ -1,0 +1,7 @@
+1.git clone一个地址
+2.git pull
+3.git add .
+4.git commit -m "上传发文件名"
+5.git push 
+git log //记录日志
+git remote
