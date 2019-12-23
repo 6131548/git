@@ -1,0 +1,15 @@
+$ git checkout -b dev //创建DEV的分支
+git checkout master  //切换分支
+git merge dev //合并分支
+git branch -d dev //删除分支
+
+解决冲突
+git checkout  dev          //选择分支
+git fetch origin master       //拉取远程更新代码（只拉取不合并），这里不能git pull （合并有冲突）
+git rebase  origin/master   //查看conflict ，手动修改冲突 
+git add  .
+git rebase --continue       //add 后不需要git commit
+git push origin
+
+
+
